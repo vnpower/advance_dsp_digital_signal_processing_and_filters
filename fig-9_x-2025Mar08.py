@@ -31,6 +31,7 @@ h_B = method_B(h, N)
 fig, axes = plt.subplots(1, 2, figsize=(12, 4))
 
 # Method A visualization
+# Method A visualization
 axes[0].stem(np.arange(len(h_A)), h_A, basefmt=" ")
 axes[0].set_title("Method A: Rotated and Zero-Padded")
 axes[0].set_xlabel("n")
