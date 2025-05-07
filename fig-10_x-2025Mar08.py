@@ -8,6 +8,7 @@ M = 3
 T1, T2, T3 = 0.1, 0.5, 0.8  # Example threshold values
 
 # Frequency response Hk
+# Frequency response Hk
 Hk = np.zeros(N)
 Hk[:BW] = 1
 Hk[BW] = T3
