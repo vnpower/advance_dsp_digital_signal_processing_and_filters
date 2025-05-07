@@ -17,6 +17,7 @@ num_frequencies = N // 2 + 1  # Only half the spectrum is specified
 H = np.zeros(num_frequencies)  # Magnitude response
 
 # Define the ideal magnitude response (Low-pass characteristics)
+# Define the ideal magnitude response (Low-pass characteristics)
 cutoff_idx = int(cutoff / (fs / 2) * num_frequencies)  # Cutoff index in frequency domain
 print(cutoff_idx)
 cutoff_idx = BW+3
