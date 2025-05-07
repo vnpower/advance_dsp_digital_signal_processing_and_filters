@@ -24,6 +24,7 @@ H_k_shifted = H_k * np.exp(-1j * np.pi / N * np.arange(N))
 H_full = np.concatenate([H_k_shifted, H_k_shifted[-2:0:-1].conj()])  
 
 # Bước 5: Thực hiện FFT để thu được đáp ứng xung
+# Bước 5: Thực hiện FFT để thu được đáp ứng xung
 h = np.fft.ifft(H_full).real  # Lấy phần thực
 
 # Bước 6: Dịch h(n) N/2 mẫu và mở rộng bằng 0
