@@ -10,6 +10,7 @@ x2 = np.linspace(0.15, 0.28, 100)
 y2 = 4.8 * x2 - 0.42  # Linear equation for Line 2
 
 # Define points on the respective lines
+# Define points on the respective lines
 points = {
     "A": (0.48, 0.75*0.48+0.64),  # Lies on Line 1
     "B": (0.4, 0.75 * 0.4 + 0.64),  # Lies on Line 1
