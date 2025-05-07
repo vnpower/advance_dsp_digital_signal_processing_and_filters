@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Define x-axis range (transition coefficient values)
+# Define x-axis range (transition coefficient values)
 x = np.linspace(0, 13, 100)
 x1 = np.linspace(0.5, 10, 100)
 x2 = np.linspace(1, 11.5, 100)
